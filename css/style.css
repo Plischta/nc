@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #D8D8D8; /* Soft Platinum */
+  color: #0B0C10; /* Charcoal Black for text */
+}
+
+a {
+  text-decoration: none;
+  color: #7D5BA6; /* Velvet Lavender */
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #C9A227; /* Luxury Gold */
+}
+
+/* Header */
+header {
+  background-color: #0A1128; /* Midnight Navy */
+  color: #D8D8D8; /* Soft Platinum */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #C9A227; /* Luxury Gold accent */
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: #D8D8D8;
+  font-weight: 500;
+}
+
+header nav ul li a:hover {
+  color: #7D5BA6; /* Lavender hover */
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #7D5BA6, #6A0DAD);
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #C9A227; /* Luxury Gold */
+  color: #0A1128; /* Navy text */
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #206A5D; /* Emerald Deep */
+  color: #fff;
+}
+
+/* Content */
+main .content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #2E1A47; /* Deep Indigo */
+  color: #D8D8D8; /* Soft Platinum */
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+footer h4 {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: #C9A227; /* Gold accent */
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin: 8px 0;
+}
+
+footer ul li a {
+  color: #D8D8D8;
+}
+
+footer ul li a:hover {
+  color: #7D5BA6; /* Lavender hover */
+}
+
+.footer-bottom {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #B0AFC0;
+  border-top: 1px solid #7D5BA6;
+  padding-top: 15px;
+}
