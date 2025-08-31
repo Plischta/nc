@@ -36,7 +36,8 @@ header nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 20px;
+  gap: clamp(100px, 9vw, 100px);
+  align-items: center;
 }
 
 header nav ul li a {
@@ -109,7 +110,13 @@ footer {
   padding: 40px 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
   
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 footer h4 {
