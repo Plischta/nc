@@ -1,5 +1,13 @@
 /* === BASE STYLES (desktop-first) === */
 
+/* Fix for phantom line */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* prevent sideways scrolling */
+}
+
+
 body {
   margin: 0;
   font-family: "Helvetica Neue", Arial, sans-serif;
